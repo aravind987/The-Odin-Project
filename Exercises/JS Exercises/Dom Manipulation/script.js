@@ -20,7 +20,7 @@ container.appendChild(content2);
 const content3 = document.createElement('div');
 content3.classList.add('bordered')
 content3.style.backgroundColor = 'pink';
-content3.style.border = 'black';
+content3.style.borderColor = 'black';
 const header1 = document.createElement('h1');
 header1.textContent = 'I\'m in a div!';
 content3.appendChild(header1);
@@ -29,3 +29,7 @@ paragraph.textContent = 'ME TOO!';
 content3.appendChild(paragraph);
 container.appendChild(content3);
 
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+});
