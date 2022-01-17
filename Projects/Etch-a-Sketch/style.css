@@ -1,0 +1,25 @@
+#container {
+    display: grid;
+    height: 600px;
+    width: 600px;
+}
+
+#box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid{
+    color: white;
+    text-align: center;
+    background-color: rgb(29, 56, 71);
+    border-top: 2px solid #dfdfdf;
+    border-right: 2px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+.grid:hover{
+    background-color: aquamarine;
+
+}
