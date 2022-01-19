@@ -10,16 +10,19 @@
     align-items: center;
 }
 
-.grid{
+#box1{
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 10px;
+}
+
+.cells{
     color: white;
     text-align: center;
     background-color: rgb(29, 56, 71);
     border-top: 2px solid #dfdfdf;
     border-right: 2px solid #dfdfdf;
-    border-radius: 5px;
-}
-
-.grid:hover{
-    background-color: aquamarine;
-
 }
